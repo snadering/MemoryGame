@@ -17,6 +17,10 @@ const initialCards = [
     { id: 14, content: "G", isFlipped: false, isMatched: false, pattern: "pattern7"},
     { id: 15, content: "H", isFlipped: false, isMatched: false, pattern: "pattern8"},
     { id: 16, content: "H", isFlipped: false, isMatched: false, pattern: "pattern8"},
+    { id: 17, content: "I", isFlipped: false, isMatched: false, pattern: "pattern9"},
+    { id: 18, content: "I", isFlipped: false, isMatched: false, pattern: "pattern9"},
+    { id: 19, content: "J", isFlipped: false, isMatched: false, pattern: "pattern10"},
+    { id: 20, content: "J", isFlipped: false, isMatched: false, pattern: "pattern10"},
 ];
 
 

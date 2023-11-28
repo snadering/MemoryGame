@@ -1,5 +1,5 @@
 import React from "react";
-import "animate.css"; // Import animate.css
+import "animate.css"; 
 
 function Card({ id, content, isFlipped, isMatched, onCardClick, pattern }) {
   const cardClasses = `relative w-32 h-40 bg-transparent rounded-md cursor-pointer border-2 border-black transform transition ${
@@ -19,7 +19,7 @@ function Card({ id, content, isFlipped, isMatched, onCardClick, pattern }) {
           {isFlipped ?
           <img 
           src={`src/assets/patterns/${pattern}.jpeg`}
-          alt="Card Backside"
+          alt="Card Pattern"
           className="object-cover w-full h-full rounded"/> : 
           <img 
           src="src/assets/card-backside-image.png"

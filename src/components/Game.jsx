@@ -142,7 +142,17 @@ function Game() {
 
         {!gameOver && !startMenu && (
           <>
-            <h1 className="text-3xl font-semibold mb-4">Memory Game</h1>
+            <h1
+            className="relative overflow-hidden text-4xl font-bold text-transparent py-2 px-4 rounded-md bg-gradient-to-r from-[#ffffff] to-[#ffffff] bg-clip-text"
+            style={{
+              backgroundImage: 'url("src/assets/card-backside-image.png")',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+          >
+            Memory Game
+          </h1>
             <div className="flex justify-center w-full p-2">
               <div className="w-1/2 flex justify-center">
                 <h2>
@@ -155,7 +165,11 @@ function Game() {
                 </h2>
               </div>
             </div>
-            <Board cards={cards} handleCardClick={handleCardClick} />
+            <Board 
+                cards={cards}
+                handleCardClick={handleCardClick}
+                currentPlayer={currentPlayer}
+                />
           </>
         )}
         {gameOver && (
