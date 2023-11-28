@@ -1,22 +1,22 @@
 
 
 const initialCards = [
-    { id: 1, content: "A", isFlipped: false, isMatched: false },
-    { id: 2, content: "A", isFlipped: false, isMatched: false },
-    { id: 3, content: "B", isFlipped: false, isMatched: false },
-    { id: 4, content: "B", isFlipped: false, isMatched: false },
-    { id: 5, content: "C", isFlipped: false, isMatched: false },
-    { id: 6, content: "C", isFlipped: false, isMatched: false },
-    { id: 7, content: "D", isFlipped: false, isMatched: false },
-    { id: 8, content: "D", isFlipped: false, isMatched: false },
-    { id: 9, content: "E", isFlipped: false, isMatched: false },
-    { id: 10, content: "E", isFlipped: false, isMatched: false },
-    { id: 11, content: "F", isFlipped: false, isMatched: false },
-    { id: 12, content: "F", isFlipped: false, isMatched: false },
-    { id: 13, content: "G", isFlipped: false, isMatched: false },
-    { id: 14, content: "G", isFlipped: false, isMatched: false },
-    { id: 15, content: "H", isFlipped: false, isMatched: false },
-    { id: 16, content: "H", isFlipped: false, isMatched: false },
+    { id: 1, content: "A", isFlipped: false, isMatched: false, pattern: "pattern1"},
+    { id: 2, content: "A", isFlipped: false, isMatched: false, pattern: "pattern1"},
+    { id: 3, content: "B", isFlipped: false, isMatched: false, pattern: "pattern2"},
+    { id: 4, content: "B", isFlipped: false, isMatched: false, pattern: "pattern2"},
+    { id: 5, content: "C", isFlipped: false, isMatched: false, pattern: "pattern3"},
+    { id: 6, content: "C", isFlipped: false, isMatched: false, pattern: "pattern3"},
+    { id: 7, content: "D", isFlipped: false, isMatched: false, pattern: "pattern4"},
+    { id: 8, content: "D", isFlipped: false, isMatched: false, pattern: "pattern4"},
+    { id: 9, content: "E", isFlipped: false, isMatched: false, pattern: "pattern5"},
+    { id: 10, content: "E", isFlipped: false, isMatched: false, pattern: "pattern5"},
+    { id: 11, content: "F", isFlipped: false, isMatched: false, pattern: "pattern6"},
+    { id: 12, content: "F", isFlipped: false, isMatched: false, pattern: "pattern6"},
+    { id: 13, content: "G", isFlipped: false, isMatched: false, pattern: "pattern7"},
+    { id: 14, content: "G", isFlipped: false, isMatched: false, pattern: "pattern7"},
+    { id: 15, content: "H", isFlipped: false, isMatched: false, pattern: "pattern8"},
+    { id: 16, content: "H", isFlipped: false, isMatched: false, pattern: "pattern8"},
 ];
 
 

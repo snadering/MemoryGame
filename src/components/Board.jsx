@@ -15,6 +15,7 @@ function Board({ cards, handleCardClick }) {
           isFlipped={card.isFlipped}
           isMatched={card.isMatched}
           onCardClick={handleCardClick}
+          pattern={card.pattern}
         />
       </div>
     ))}
